@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		48AE06DF24FE813C00102AC3 /* CastRepeatMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE06DE24FE813C00102AC3 /* CastRepeatMode.swift */; };
+		48AE06E124FE81A800102AC3 /* CastMediaQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE06E024FE81A800102AC3 /* CastMediaQueue.swift */; };
 		OBJ_157 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* CASTV2Protocol.swift */; };
 		OBJ_158 /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CastV2PlatformReader.swift */; };
 		OBJ_159 /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* cast_channel.pb.swift */; };
@@ -188,6 +190,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48AE06DE24FE813C00102AC3 /* CastRepeatMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastRepeatMode.swift; sourceTree = "<group>"; };
+		48AE06E024FE81A800102AC3 /* CastMediaQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMediaQueue.swift; sourceTree = "<group>"; };
 		OBJ_10 /* CASTV2Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASTV2Protocol.swift; sourceTree = "<group>"; };
 		OBJ_100 /* ProtobufMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobufMap.swift; sourceTree = "<group>"; };
 		OBJ_101 /* SelectiveVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectiveVisitor.swift; sourceTree = "<group>"; };
@@ -416,11 +420,13 @@
 				OBJ_17 /* CastApp.swift */,
 				OBJ_18 /* CastDevice.swift */,
 				OBJ_19 /* CastMedia.swift */,
+				48AE06E024FE81A800102AC3 /* CastMediaQueue.swift */,
 				OBJ_20 /* CastMediaStatus.swift */,
 				OBJ_21 /* CastMessage.swift */,
 				OBJ_22 /* CastMultizoneDevice.swift */,
 				OBJ_23 /* CastMultizoneStatus.swift */,
 				OBJ_24 /* CastStatus.swift */,
+				48AE06DE24FE813C00102AC3 /* CastRepeatMode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -784,6 +790,7 @@
 				OBJ_162 /* CastDevice.swift in Sources */,
 				OBJ_163 /* CastMedia.swift in Sources */,
 				OBJ_164 /* CastMediaStatus.swift in Sources */,
+				48AE06DF24FE813C00102AC3 /* CastRepeatMode.swift in Sources */,
 				OBJ_165 /* CastMessage.swift in Sources */,
 				OBJ_166 /* CastMultizoneDevice.swift in Sources */,
 				OBJ_167 /* CastMultizoneStatus.swift in Sources */,
@@ -798,6 +805,7 @@
 				OBJ_176 /* DeviceSetupChannel.swift in Sources */,
 				OBJ_177 /* HeartbeatChannel.swift in Sources */,
 				OBJ_178 /* MediaControlChannel.swift in Sources */,
+				48AE06E124FE81A800102AC3 /* CastMediaQueue.swift in Sources */,
 				OBJ_179 /* MultizoneControlChannel.swift in Sources */,
 				OBJ_180 /* ReceiverControlChannel.swift in Sources */,
 				OBJ_181 /* RequestSink.swift in Sources */,

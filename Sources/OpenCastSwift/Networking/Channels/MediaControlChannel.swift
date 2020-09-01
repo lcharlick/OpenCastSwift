@@ -102,6 +102,28 @@ class MediaControlChannel: CastChannel {
     
     send(request)
   }
+
+  public func load(queue: CastMediaQueue, with app: CastApp, completion: @escaping (Result<CastMediaStatus, CastError>) -> Void) {
+    var payload = queue.dict
+    payload[CastJSONPayloadKeys.type] = CastMessageType.queueLoad.rawValue
+    payload[CastJSONPayloadKeys.sessionId] = app.sessionId
+
+    let request = requestDispatcher.request(withNamespace: namespace,
+                                            destinationId: app.transportId,
+                                            payload: payload)
+
+    send(request) { result in
+      switch result {
+      case .success(let json):
+        guard let status = json["status"].array?.first else { return }
+
+        completion(.success(CastMediaStatus(json: status)))
+
+      case .failure(let error):
+        completion(.failure(CastError.load(error.localizedDescription)))
+      }
+    }
+  }
   
   public func load(media: CastMedia, with app: CastApp, completion: @escaping (Result<CastMediaStatus, CastError>) -> Void) {
     var payload = media.dict

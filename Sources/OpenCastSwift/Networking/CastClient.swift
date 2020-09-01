@@ -427,6 +427,12 @@ public final class CastClient: NSObject, RequestDispatchable, Channelable {
     connectionChannel.leave(app)
     connectedApp = nil
   }
+
+  public func load(queue: [CastMedia], with app: CastApp, completion: @escaping (Result<CastMediaStatus, CastError>) -> Void) {
+    guard outputStream != nil else { return }
+
+    mediaControlChannel.load(media: media, with: app, completion: completion)
+  }
   
   public func load(media: CastMedia, with app: CastApp, completion: @escaping (Result<CastMediaStatus, CastError>) -> Void) {
     guard outputStream != nil else { return }
