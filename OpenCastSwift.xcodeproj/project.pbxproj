@@ -6,909 +6,1381 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"OpenCastSwift::OpenCastSwiftPackageTests::ProductTarget" /* OpenCastSwiftPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_196 /* Build configuration list for PBXAggregateTarget "OpenCastSwiftPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_199 /* PBXTargetDependency */,
+			);
+			name = OpenCastSwiftPackageTests;
+			productName = OpenCastSwiftPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		020C21AD200EE20D006E53CA /* DeviceConnectionChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020C21AC200EE20D006E53CA /* DeviceConnectionChannel.swift */; };
-		020C21AE200EE3A6006E53CA /* DeviceConnectionChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020C21AC200EE20D006E53CA /* DeviceConnectionChannel.swift */; };
-		020C21AF200EE3A6006E53CA /* DeviceConnectionChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020C21AC200EE20D006E53CA /* DeviceConnectionChannel.swift */; };
-		020D54E0200EBA7A00CCA1B5 /* DeviceAuthChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D54DF200EBA7A00CCA1B5 /* DeviceAuthChannel.swift */; };
-		024CB2ED2005A43D00FF73EE /* AppAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CB2EC2005A43D00FF73EE /* AppAvailability.swift */; };
-		0252C2B120113404002AE6A2 /* RequestSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1EB2010059200CF01E1 /* RequestSink.swift */; };
-		0252C2B220113404002AE6A2 /* RequestSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1EB2010059200CF01E1 /* RequestSink.swift */; };
-		0252C2B420113526002AE6A2 /* MultizoneControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */; };
-		0252C2B620113B84002AE6A2 /* CastMultizoneStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */; };
-		0252C2B820113D7B002AE6A2 /* CastMultizoneDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */; };
-		0252C2B920113FF4002AE6A2 /* CastMultizoneStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */; };
-		0252C2BA20113FF4002AE6A2 /* CastMultizoneDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */; };
-		0252C2BB20113FF4002AE6A2 /* MultizoneControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */; };
-		0252C2BC20113FF5002AE6A2 /* CastMultizoneStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */; };
-		0252C2BD20113FF5002AE6A2 /* CastMultizoneDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */; };
-		0252C2BE20113FF5002AE6A2 /* MultizoneControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */; };
-		02618DD8200829360074AD87 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */; };
-		02618DD92008293B0074AD87 /* CastDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD274EAF1DB7EF7F00428530 /* CastDevice.swift */; };
-		02618DDA2008293B0074AD87 /* CastStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225E1DBAD013004B5762 /* CastStatus.swift */; };
-		02618DDB2008293B0074AD87 /* CastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522601DBAD02D004B5762 /* CastApp.swift */; };
-		02618DDC2008293B0074AD87 /* AppAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CB2EC2005A43D00FF73EE /* AppAvailability.swift */; };
-		02618DDD2008293B0074AD87 /* CastMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522651DBAD077004B5762 /* CastMediaStatus.swift */; };
-		02618DDE2008293B0074AD87 /* CastMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522671DBAD9B9004B5762 /* CastMedia.swift */; };
-		02618DDF200829440074AD87 /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289007A20054B970024D80F /* cast_channel.pb.swift */; };
-		02618DE2200829470074AD87 /* CastDeviceScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD674A441DB7E89500E1FC24 /* CastDeviceScanner.swift */; };
-		02618DE3200829470074AD87 /* CastClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC239471DB83E0200066B2F /* CastClient.swift */; };
-		02618DE820082A210074AD87 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618DE620082A200074AD87 /* SwiftyJSON.framework */; };
-		02618DE920082A210074AD87 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618DE720082A200074AD87 /* SwiftProtobuf.framework */; };
-		02618DEB20082A940074AD87 /* ChromeCastCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02618DEC20082A940074AD87 /* ChromeCastCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02618DFA20082EB80074AD87 /* ChromeCastCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02618DFB20082EBD0074AD87 /* CastDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD274EAF1DB7EF7F00428530 /* CastDevice.swift */; };
-		02618DFC20082EBD0074AD87 /* CastStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225E1DBAD013004B5762 /* CastStatus.swift */; };
-		02618DFD20082EBD0074AD87 /* CastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522601DBAD02D004B5762 /* CastApp.swift */; };
-		02618DFE20082EBD0074AD87 /* AppAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024CB2EC2005A43D00FF73EE /* AppAvailability.swift */; };
-		02618DFF20082EBD0074AD87 /* CastMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522651DBAD077004B5762 /* CastMediaStatus.swift */; };
-		02618E0020082EBD0074AD87 /* CastMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522671DBAD9B9004B5762 /* CastMedia.swift */; };
-		02618E0120082EC00074AD87 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */; };
-		02618E0220082EC30074AD87 /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289007A20054B970024D80F /* cast_channel.pb.swift */; };
-		02618E0620082EDE0074AD87 /* CastClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC239471DB83E0200066B2F /* CastClient.swift */; };
-		02618E0C20082F620074AD87 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618E0A20082F620074AD87 /* SwiftProtobuf.framework */; };
-		02618E0D20082F620074AD87 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02618E0B20082F620074AD87 /* SwiftyJSON.framework */; };
-		027E35B8200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */; };
-		027E35B9200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */; };
-		027E35BA200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */; };
-		027E35BB200E8A1400A863E6 /* CastChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B6200E8A1400A863E6 /* CastChannel.swift */; };
-		027E35BC200E8A1400A863E6 /* CastChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B6200E8A1400A863E6 /* CastChannel.swift */; };
-		027E35BD200E8A1400A863E6 /* CastChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B6200E8A1400A863E6 /* CastChannel.swift */; };
-		027E35BE200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */; };
-		027E35BF200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */; };
-		027E35C0200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */; };
-		027E35C2200E8AEA00A863E6 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027E35C1200E8AEA00A863E6 /* Result.framework */; };
-		027E35C5200E933800A863E6 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C4200E933800A863E6 /* CastMessage.swift */; };
-		027E35C6200E933800A863E6 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C4200E933800A863E6 /* CastMessage.swift */; };
-		027E35C7200E933800A863E6 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C4200E933800A863E6 /* CastMessage.swift */; };
-		027E35C9200EA7D800A863E6 /* MediaControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C8200EA7D800A863E6 /* MediaControlChannel.swift */; };
-		027E35CA200EA7D800A863E6 /* MediaControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C8200EA7D800A863E6 /* MediaControlChannel.swift */; };
-		027E35CB200EA7D800A863E6 /* MediaControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35C8200EA7D800A863E6 /* MediaControlChannel.swift */; };
-		027E35CF200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */; };
-		027E35D0200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */; };
-		027E35D1200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */; };
-		027E35D3200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */; };
-		027E35D4200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */; };
-		027E35D5200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */; };
-		028733AD200949E00015266E /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733A7200932B90015266E /* CastV2PlatformReader.swift */; };
-		0289007720054A960024D80F /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 0289007620054A960024D80F /* Cartfile */; };
-		0289007920054B870024D80F /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289007820054B870024D80F /* SwiftProtobuf.framework */; };
-		0289007B20054B970024D80F /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0289007A20054B970024D80F /* cast_channel.pb.swift */; };
-		0289007D200551B90024D80F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0289007C200551B80024D80F /* SwiftyJSON.framework */; };
-		0298FB952009955600A0B016 /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733A7200932B90015266E /* CastV2PlatformReader.swift */; };
-		0298FB962009955600A0B016 /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733A7200932B90015266E /* CastV2PlatformReader.swift */; };
-		02F6F1EC2010059200CF01E1 /* RequestSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1EB2010059200CF01E1 /* RequestSink.swift */; };
-		02F6F1EE2010062300CF01E1 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1ED2010062300CF01E1 /* Channelable.swift */; };
-		02F6F1EF2010066F00CF01E1 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1ED2010062300CF01E1 /* Channelable.swift */; };
-		02F6F1F02010066F00CF01E1 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F6F1ED2010062300CF01E1 /* Channelable.swift */; };
-		DD15225D1DBACFE4004B5762 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */; };
-		DD15225F1DBAD013004B5762 /* CastStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD15225E1DBAD013004B5762 /* CastStatus.swift */; };
-		DD1522611DBAD02D004B5762 /* CastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522601DBAD02D004B5762 /* CastApp.swift */; };
-		DD1522661DBAD077004B5762 /* CastMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522651DBAD077004B5762 /* CastMediaStatus.swift */; };
-		DD1522681DBAD9B9004B5762 /* CastMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1522671DBAD9B9004B5762 /* CastMedia.swift */; };
-		DD274EB01DB7EF7F00428530 /* CastDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD274EAF1DB7EF7F00428530 /* CastDevice.swift */; };
-		DD674A451DB7E89500E1FC24 /* CastDeviceScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD674A441DB7E89500E1FC24 /* CastDeviceScanner.swift */; };
-		DDC239481DB83E0200066B2F /* CastClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC239471DB83E0200066B2F /* CastClient.swift */; };
+		OBJ_157 /* CASTV2Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* CASTV2Protocol.swift */; };
+		OBJ_158 /* CastV2PlatformReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CastV2PlatformReader.swift */; };
+		OBJ_159 /* cast_channel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* cast_channel.pb.swift */; };
+		OBJ_160 /* AppAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* AppAvailability.swift */; };
+		OBJ_161 /* CastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* CastApp.swift */; };
+		OBJ_162 /* CastDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* CastDevice.swift */; };
+		OBJ_163 /* CastMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CastMedia.swift */; };
+		OBJ_164 /* CastMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* CastMediaStatus.swift */; };
+		OBJ_165 /* CastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* CastMessage.swift */; };
+		OBJ_166 /* CastMultizoneDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* CastMultizoneDevice.swift */; };
+		OBJ_167 /* CastMultizoneStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* CastMultizoneStatus.swift */; };
+		OBJ_168 /* CastStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* CastStatus.swift */; };
+		OBJ_169 /* CastClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CastClient.swift */; };
+		OBJ_170 /* CastDeviceScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* CastDeviceScanner.swift */; };
+		OBJ_171 /* CastChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* CastChannel.swift */; };
+		OBJ_172 /* Channelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Channelable.swift */; };
+		OBJ_173 /* DeviceAuthChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* DeviceAuthChannel.swift */; };
+		OBJ_174 /* DeviceConnectionChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* DeviceConnectionChannel.swift */; };
+		OBJ_175 /* DeviceDiscoveryChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* DeviceDiscoveryChannel.swift */; };
+		OBJ_176 /* DeviceSetupChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* DeviceSetupChannel.swift */; };
+		OBJ_177 /* HeartbeatChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* HeartbeatChannel.swift */; };
+		OBJ_178 /* MediaControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* MediaControlChannel.swift */; };
+		OBJ_179 /* MultizoneControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* MultizoneControlChannel.swift */; };
+		OBJ_180 /* ReceiverControlChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ReceiverControlChannel.swift */; };
+		OBJ_181 /* RequestSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* RequestSink.swift */; };
+		OBJ_183 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */; };
+		OBJ_184 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */; };
+		OBJ_194 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_205 /* OpenCastSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* OpenCastSwiftTests.swift */; };
+		OBJ_206 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* XCTestManifests.swift */; };
+		OBJ_208 /* OpenCastSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "OpenCastSwift::OpenCastSwift::Product" /* OpenCastSwift.framework */; };
+		OBJ_209 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */; };
+		OBJ_210 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */; };
+		OBJ_218 /* AnyMessageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* AnyMessageStorage.swift */; };
+		OBJ_219 /* AnyUnpackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* AnyUnpackError.swift */; };
+		OBJ_220 /* BinaryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* BinaryDecoder.swift */; };
+		OBJ_221 /* BinaryDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* BinaryDecodingError.swift */; };
+		OBJ_222 /* BinaryDecodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* BinaryDecodingOptions.swift */; };
+		OBJ_223 /* BinaryDelimited.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* BinaryDelimited.swift */; };
+		OBJ_224 /* BinaryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* BinaryEncoder.swift */; };
+		OBJ_225 /* BinaryEncodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* BinaryEncodingError.swift */; };
+		OBJ_226 /* BinaryEncodingSizeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* BinaryEncodingSizeVisitor.swift */; };
+		OBJ_227 /* BinaryEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* BinaryEncodingVisitor.swift */; };
+		OBJ_228 /* CustomJSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* CustomJSONCodable.swift */; };
+		OBJ_229 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Data+Extensions.swift */; };
+		OBJ_230 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Decoder.swift */; };
+		OBJ_231 /* DoubleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* DoubleParser.swift */; };
+		OBJ_232 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Enum.swift */; };
+		OBJ_233 /* ExtensibleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* ExtensibleMessage.swift */; };
+		OBJ_234 /* ExtensionFieldValueSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* ExtensionFieldValueSet.swift */; };
+		OBJ_235 /* ExtensionFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* ExtensionFields.swift */; };
+		OBJ_236 /* ExtensionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* ExtensionMap.swift */; };
+		OBJ_237 /* FieldTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* FieldTag.swift */; };
+		OBJ_238 /* FieldTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* FieldTypes.swift */; };
+		OBJ_239 /* Google_Protobuf_Any+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Google_Protobuf_Any+Extensions.swift */; };
+		OBJ_240 /* Google_Protobuf_Any+Registry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Google_Protobuf_Any+Registry.swift */; };
+		OBJ_241 /* Google_Protobuf_Duration+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Google_Protobuf_Duration+Extensions.swift */; };
+		OBJ_242 /* Google_Protobuf_FieldMask+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Google_Protobuf_FieldMask+Extensions.swift */; };
+		OBJ_243 /* Google_Protobuf_ListValue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* Google_Protobuf_ListValue+Extensions.swift */; };
+		OBJ_244 /* Google_Protobuf_NullValue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* Google_Protobuf_NullValue+Extensions.swift */; };
+		OBJ_245 /* Google_Protobuf_Struct+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* Google_Protobuf_Struct+Extensions.swift */; };
+		OBJ_246 /* Google_Protobuf_Timestamp+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* Google_Protobuf_Timestamp+Extensions.swift */; };
+		OBJ_247 /* Google_Protobuf_Value+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* Google_Protobuf_Value+Extensions.swift */; };
+		OBJ_248 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* Google_Protobuf_Wrappers+Extensions.swift */; };
+		OBJ_249 /* HashVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* HashVisitor.swift */; };
+		OBJ_250 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Internal.swift */; };
+		OBJ_251 /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* JSONDecoder.swift */; };
+		OBJ_252 /* JSONDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* JSONDecodingError.swift */; };
+		OBJ_253 /* JSONDecodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* JSONDecodingOptions.swift */; };
+		OBJ_254 /* JSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* JSONEncoder.swift */; };
+		OBJ_255 /* JSONEncodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* JSONEncodingError.swift */; };
+		OBJ_256 /* JSONEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* JSONEncodingOptions.swift */; };
+		OBJ_257 /* JSONEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* JSONEncodingVisitor.swift */; };
+		OBJ_258 /* JSONMapEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* JSONMapEncodingVisitor.swift */; };
+		OBJ_259 /* JSONScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* JSONScanner.swift */; };
+		OBJ_260 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* MathUtils.swift */; };
+		OBJ_261 /* Message+AnyAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* Message+AnyAdditions.swift */; };
+		OBJ_262 /* Message+BinaryAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* Message+BinaryAdditions.swift */; };
+		OBJ_263 /* Message+JSONAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* Message+JSONAdditions.swift */; };
+		OBJ_264 /* Message+JSONArrayAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* Message+JSONArrayAdditions.swift */; };
+		OBJ_265 /* Message+TextFormatAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* Message+TextFormatAdditions.swift */; };
+		OBJ_266 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* Message.swift */; };
+		OBJ_267 /* MessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* MessageExtension.swift */; };
+		OBJ_268 /* NameMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* NameMap.swift */; };
+		OBJ_269 /* ProtoNameProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* ProtoNameProviding.swift */; };
+		OBJ_270 /* ProtobufAPIVersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* ProtobufAPIVersionCheck.swift */; };
+		OBJ_271 /* ProtobufMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* ProtobufMap.swift */; };
+		OBJ_272 /* SelectiveVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* SelectiveVisitor.swift */; };
+		OBJ_273 /* SimpleExtensionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* SimpleExtensionMap.swift */; };
+		OBJ_274 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* StringUtils.swift */; };
+		OBJ_275 /* TextFormatDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* TextFormatDecoder.swift */; };
+		OBJ_276 /* TextFormatDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* TextFormatDecodingError.swift */; };
+		OBJ_277 /* TextFormatEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* TextFormatEncoder.swift */; };
+		OBJ_278 /* TextFormatEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* TextFormatEncodingOptions.swift */; };
+		OBJ_279 /* TextFormatEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* TextFormatEncodingVisitor.swift */; };
+		OBJ_280 /* TextFormatScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* TextFormatScanner.swift */; };
+		OBJ_281 /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* TimeUtils.swift */; };
+		OBJ_282 /* UnknownStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* UnknownStorage.swift */; };
+		OBJ_283 /* UnsafeBufferPointer+Shims.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* UnsafeBufferPointer+Shims.swift */; };
+		OBJ_284 /* UnsafeRawPointer+Shims.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* UnsafeRawPointer+Shims.swift */; };
+		OBJ_285 /* Varint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* Varint.swift */; };
+		OBJ_286 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* Version.swift */; };
+		OBJ_287 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* Visitor.swift */; };
+		OBJ_288 /* WireFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* WireFormat.swift */; };
+		OBJ_289 /* ZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* ZigZag.swift */; };
+		OBJ_290 /* any.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* any.pb.swift */; };
+		OBJ_291 /* api.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* api.pb.swift */; };
+		OBJ_292 /* descriptor.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* descriptor.pb.swift */; };
+		OBJ_293 /* duration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* duration.pb.swift */; };
+		OBJ_294 /* empty.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* empty.pb.swift */; };
+		OBJ_295 /* field_mask.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* field_mask.pb.swift */; };
+		OBJ_296 /* source_context.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* source_context.pb.swift */; };
+		OBJ_297 /* struct.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* struct.pb.swift */; };
+		OBJ_298 /* timestamp.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* timestamp.pb.swift */; };
+		OBJ_299 /* type.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* type.pb.swift */; };
+		OBJ_300 /* wrappers.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* wrappers.pb.swift */; };
+		OBJ_307 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* Package.swift */; };
+		OBJ_312 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* SwiftyJSON.swift */; };
+		OBJ_319 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* Package.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		48AE06D324FE674F00102AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftProtobuf::SwiftProtobuf";
+			remoteInfo = SwiftProtobuf;
+		};
+		48AE06D424FE674F00102AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftyJSON::SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		48AE06D524FE675500102AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "OpenCastSwift::OpenCastSwift";
+			remoteInfo = OpenCastSwift;
+		};
+		48AE06D624FE675500102AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftProtobuf::SwiftProtobuf";
+			remoteInfo = SwiftProtobuf;
+		};
+		48AE06D724FE675500102AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftyJSON::SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		48AE06D824FE675A00102AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "OpenCastSwift::OpenCastSwiftTests";
+			remoteInfo = OpenCastSwiftTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		020C21AC200EE20D006E53CA /* DeviceConnectionChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConnectionChannel.swift; sourceTree = "<group>"; };
-		020D54DF200EBA7A00CCA1B5 /* DeviceAuthChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAuthChannel.swift; sourceTree = "<group>"; };
-		024CB2EC2005A43D00FF73EE /* AppAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAvailability.swift; sourceTree = "<group>"; };
-		0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultizoneControlChannel.swift; sourceTree = "<group>"; };
-		0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMultizoneStatus.swift; sourceTree = "<group>"; };
-		0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMultizoneDevice.swift; sourceTree = "<group>"; };
-		02618DCD2008289E0074AD87 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02618DE620082A200074AD87 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		02618DE720082A200074AD87 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/iOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
-		02618DF220082EA90074AD87 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02618E0A20082F620074AD87 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/watchOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
-		02618E0B20082F620074AD87 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/watchOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverControlChannel.swift; sourceTree = "<group>"; };
-		027E35B6200E8A1400A863E6 /* CastChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastChannel.swift; sourceTree = "<group>"; };
-		027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartbeatChannel.swift; sourceTree = "<group>"; };
-		027E35C1200E8AEA00A863E6 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
-		027E35C4200E933800A863E6 /* CastMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastMessage.swift; sourceTree = "<group>"; };
-		027E35C8200EA7D800A863E6 /* MediaControlChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaControlChannel.swift; sourceTree = "<group>"; };
-		027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupChannel.swift; sourceTree = "<group>"; };
-		027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDiscoveryChannel.swift; sourceTree = "<group>"; };
-		028733A7200932B90015266E /* CastV2PlatformReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastV2PlatformReader.swift; sourceTree = "<group>"; };
-		0289007620054A960024D80F /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		0289007820054B870024D80F /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/Mac/SwiftProtobuf.framework; sourceTree = "<group>"; };
-		0289007A20054B970024D80F /* cast_channel.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cast_channel.pb.swift; sourceTree = "<group>"; };
-		0289007C200551B80024D80F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
-		0298FB9B2009ACA600A0B016 /* cast_channel.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = cast_channel.proto; sourceTree = "<group>"; };
-		02F6F1EB2010059200CF01E1 /* RequestSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSink.swift; sourceTree = "<group>"; };
-		02F6F1ED2010062300CF01E1 /* Channelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channelable.swift; sourceTree = "<group>"; };
-		DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASTV2Protocol.swift; sourceTree = "<group>"; };
-		DD15225E1DBAD013004B5762 /* CastStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastStatus.swift; sourceTree = "<group>"; };
-		DD1522601DBAD02D004B5762 /* CastApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastApp.swift; sourceTree = "<group>"; };
-		DD1522651DBAD077004B5762 /* CastMediaStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastMediaStatus.swift; sourceTree = "<group>"; };
-		DD1522671DBAD9B9004B5762 /* CastMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastMedia.swift; sourceTree = "<group>"; };
-		DD274EAF1DB7EF7F00428530 /* CastDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastDevice.swift; sourceTree = "<group>"; };
-		DD674A381DB7E83500E1FC24 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromeCastCore.h; sourceTree = "<group>"; };
-		DD674A3C1DB7E83500E1FC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD674A441DB7E89500E1FC24 /* CastDeviceScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastDeviceScanner.swift; sourceTree = "<group>"; };
-		DDC239471DB83E0200066B2F /* CastClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastClient.swift; sourceTree = "<group>"; };
+		OBJ_10 /* CASTV2Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASTV2Protocol.swift; sourceTree = "<group>"; };
+		OBJ_100 /* ProtobufMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobufMap.swift; sourceTree = "<group>"; };
+		OBJ_101 /* SelectiveVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectiveVisitor.swift; sourceTree = "<group>"; };
+		OBJ_102 /* SimpleExtensionMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleExtensionMap.swift; sourceTree = "<group>"; };
+		OBJ_103 /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		OBJ_104 /* TextFormatDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatDecoder.swift; sourceTree = "<group>"; };
+		OBJ_105 /* TextFormatDecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatDecodingError.swift; sourceTree = "<group>"; };
+		OBJ_106 /* TextFormatEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatEncoder.swift; sourceTree = "<group>"; };
+		OBJ_107 /* TextFormatEncodingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatEncodingOptions.swift; sourceTree = "<group>"; };
+		OBJ_108 /* TextFormatEncodingVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatEncodingVisitor.swift; sourceTree = "<group>"; };
+		OBJ_109 /* TextFormatScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormatScanner.swift; sourceTree = "<group>"; };
+		OBJ_110 /* TimeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUtils.swift; sourceTree = "<group>"; };
+		OBJ_111 /* UnknownStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownStorage.swift; sourceTree = "<group>"; };
+		OBJ_112 /* UnsafeBufferPointer+Shims.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnsafeBufferPointer+Shims.swift"; sourceTree = "<group>"; };
+		OBJ_113 /* UnsafeRawPointer+Shims.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnsafeRawPointer+Shims.swift"; sourceTree = "<group>"; };
+		OBJ_114 /* Varint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Varint.swift; sourceTree = "<group>"; };
+		OBJ_115 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		OBJ_116 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		OBJ_117 /* WireFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireFormat.swift; sourceTree = "<group>"; };
+		OBJ_118 /* ZigZag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZag.swift; sourceTree = "<group>"; };
+		OBJ_119 /* any.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = any.pb.swift; sourceTree = "<group>"; };
+		OBJ_12 /* CastV2PlatformReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastV2PlatformReader.swift; sourceTree = "<group>"; };
+		OBJ_120 /* api.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.pb.swift; sourceTree = "<group>"; };
+		OBJ_121 /* descriptor.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descriptor.pb.swift; sourceTree = "<group>"; };
+		OBJ_122 /* duration.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duration.pb.swift; sourceTree = "<group>"; };
+		OBJ_123 /* empty.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empty.pb.swift; sourceTree = "<group>"; };
+		OBJ_124 /* field_mask.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = field_mask.pb.swift; sourceTree = "<group>"; };
+		OBJ_125 /* source_context.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = source_context.pb.swift; sourceTree = "<group>"; };
+		OBJ_126 /* struct.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.pb.swift; sourceTree = "<group>"; };
+		OBJ_127 /* timestamp.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timestamp.pb.swift; sourceTree = "<group>"; };
+		OBJ_128 /* type.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type.pb.swift; sourceTree = "<group>"; };
+		OBJ_129 /* wrappers.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrappers.pb.swift; sourceTree = "<group>"; };
+		OBJ_132 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/lcharlick/Documents/git/OpenCastSwift/.build/checkouts/swift-protobuf/Package.swift"; sourceTree = "<group>"; };
+		OBJ_135 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		OBJ_136 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/lcharlick/Documents/git/OpenCastSwift/.build/checkouts/SwiftyJSON/Package.swift; sourceTree = "<group>"; };
+		OBJ_14 /* cast_channel.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cast_channel.pb.swift; sourceTree = "<group>"; };
+		OBJ_147 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_149 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_16 /* AppAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAvailability.swift; sourceTree = "<group>"; };
+		OBJ_17 /* CastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastApp.swift; sourceTree = "<group>"; };
+		OBJ_18 /* CastDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastDevice.swift; sourceTree = "<group>"; };
+		OBJ_19 /* CastMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMedia.swift; sourceTree = "<group>"; };
+		OBJ_20 /* CastMediaStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMediaStatus.swift; sourceTree = "<group>"; };
+		OBJ_21 /* CastMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMessage.swift; sourceTree = "<group>"; };
+		OBJ_22 /* CastMultizoneDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMultizoneDevice.swift; sourceTree = "<group>"; };
+		OBJ_23 /* CastMultizoneStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMultizoneStatus.swift; sourceTree = "<group>"; };
+		OBJ_24 /* CastStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastStatus.swift; sourceTree = "<group>"; };
+		OBJ_26 /* CastClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastClient.swift; sourceTree = "<group>"; };
+		OBJ_27 /* CastDeviceScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastDeviceScanner.swift; sourceTree = "<group>"; };
+		OBJ_29 /* CastChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastChannel.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Channelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channelable.swift; sourceTree = "<group>"; };
+		OBJ_31 /* DeviceAuthChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAuthChannel.swift; sourceTree = "<group>"; };
+		OBJ_32 /* DeviceConnectionChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConnectionChannel.swift; sourceTree = "<group>"; };
+		OBJ_33 /* DeviceDiscoveryChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDiscoveryChannel.swift; sourceTree = "<group>"; };
+		OBJ_34 /* DeviceSetupChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupChannel.swift; sourceTree = "<group>"; };
+		OBJ_35 /* HeartbeatChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatChannel.swift; sourceTree = "<group>"; };
+		OBJ_36 /* MediaControlChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaControlChannel.swift; sourceTree = "<group>"; };
+		OBJ_37 /* MultizoneControlChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultizoneControlChannel.swift; sourceTree = "<group>"; };
+		OBJ_38 /* ReceiverControlChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverControlChannel.swift; sourceTree = "<group>"; };
+		OBJ_39 /* RequestSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSink.swift; sourceTree = "<group>"; };
+		OBJ_42 /* OpenCastSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCastSwiftTests.swift; sourceTree = "<group>"; };
+		OBJ_43 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_47 /* AnyMessageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyMessageStorage.swift; sourceTree = "<group>"; };
+		OBJ_48 /* AnyUnpackError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUnpackError.swift; sourceTree = "<group>"; };
+		OBJ_49 /* BinaryDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDecoder.swift; sourceTree = "<group>"; };
+		OBJ_50 /* BinaryDecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDecodingError.swift; sourceTree = "<group>"; };
+		OBJ_51 /* BinaryDecodingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDecodingOptions.swift; sourceTree = "<group>"; };
+		OBJ_52 /* BinaryDelimited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDelimited.swift; sourceTree = "<group>"; };
+		OBJ_53 /* BinaryEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryEncoder.swift; sourceTree = "<group>"; };
+		OBJ_54 /* BinaryEncodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryEncodingError.swift; sourceTree = "<group>"; };
+		OBJ_55 /* BinaryEncodingSizeVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryEncodingSizeVisitor.swift; sourceTree = "<group>"; };
+		OBJ_56 /* BinaryEncodingVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryEncodingVisitor.swift; sourceTree = "<group>"; };
+		OBJ_57 /* CustomJSONCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomJSONCodable.swift; sourceTree = "<group>"; };
+		OBJ_58 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_59 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* DoubleParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleParser.swift; sourceTree = "<group>"; };
+		OBJ_61 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		OBJ_62 /* ExtensibleMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensibleMessage.swift; sourceTree = "<group>"; };
+		OBJ_63 /* ExtensionFieldValueSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFieldValueSet.swift; sourceTree = "<group>"; };
+		OBJ_64 /* ExtensionFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFields.swift; sourceTree = "<group>"; };
+		OBJ_65 /* ExtensionMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionMap.swift; sourceTree = "<group>"; };
+		OBJ_66 /* FieldTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTag.swift; sourceTree = "<group>"; };
+		OBJ_67 /* FieldTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTypes.swift; sourceTree = "<group>"; };
+		OBJ_68 /* Google_Protobuf_Any+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Any+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_69 /* Google_Protobuf_Any+Registry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Any+Registry.swift"; sourceTree = "<group>"; };
+		OBJ_70 /* Google_Protobuf_Duration+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Duration+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_71 /* Google_Protobuf_FieldMask+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_FieldMask+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_72 /* Google_Protobuf_ListValue+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_ListValue+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_73 /* Google_Protobuf_NullValue+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_NullValue+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_74 /* Google_Protobuf_Struct+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Struct+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_75 /* Google_Protobuf_Timestamp+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Timestamp+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_76 /* Google_Protobuf_Value+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Value+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_77 /* Google_Protobuf_Wrappers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google_Protobuf_Wrappers+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_78 /* HashVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashVisitor.swift; sourceTree = "<group>"; };
+		OBJ_79 /* Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internal.swift; sourceTree = "<group>"; };
+		OBJ_80 /* JSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoder.swift; sourceTree = "<group>"; };
+		OBJ_81 /* JSONDecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodingError.swift; sourceTree = "<group>"; };
+		OBJ_82 /* JSONDecodingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodingOptions.swift; sourceTree = "<group>"; };
+		OBJ_83 /* JSONEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncoder.swift; sourceTree = "<group>"; };
+		OBJ_84 /* JSONEncodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncodingError.swift; sourceTree = "<group>"; };
+		OBJ_85 /* JSONEncodingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncodingOptions.swift; sourceTree = "<group>"; };
+		OBJ_86 /* JSONEncodingVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONEncodingVisitor.swift; sourceTree = "<group>"; };
+		OBJ_87 /* JSONMapEncodingVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapEncodingVisitor.swift; sourceTree = "<group>"; };
+		OBJ_88 /* JSONScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONScanner.swift; sourceTree = "<group>"; };
+		OBJ_89 /* MathUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
+		OBJ_90 /* Message+AnyAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+AnyAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_91 /* Message+BinaryAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+BinaryAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_92 /* Message+JSONAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+JSONAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_93 /* Message+JSONArrayAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+JSONArrayAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_94 /* Message+TextFormatAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+TextFormatAdditions.swift"; sourceTree = "<group>"; };
+		OBJ_95 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		OBJ_96 /* MessageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageExtension.swift; sourceTree = "<group>"; };
+		OBJ_97 /* NameMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameMap.swift; sourceTree = "<group>"; };
+		OBJ_98 /* ProtoNameProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoNameProviding.swift; sourceTree = "<group>"; };
+		OBJ_99 /* ProtobufAPIVersionCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtobufAPIVersionCheck.swift; sourceTree = "<group>"; };
+		"OpenCastSwift::OpenCastSwift::Product" /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"OpenCastSwift::OpenCastSwiftTests::Product" /* OpenCastSwiftTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenCastSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftProtobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02618DC92008289E0074AD87 /* Frameworks */ = {
+		OBJ_182 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				02618DE820082A210074AD87 /* SwiftyJSON.framework in Frameworks */,
-				02618DE920082A210074AD87 /* SwiftProtobuf.framework in Frameworks */,
+				OBJ_183 /* SwiftProtobuf.framework in Frameworks */,
+				OBJ_184 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02618DEE20082EA90074AD87 /* Frameworks */ = {
+		OBJ_207 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				02618E0C20082F620074AD87 /* SwiftProtobuf.framework in Frameworks */,
-				02618E0D20082F620074AD87 /* SwiftyJSON.framework in Frameworks */,
+				OBJ_208 /* OpenCastSwift.framework in Frameworks */,
+				OBJ_209 /* SwiftProtobuf.framework in Frameworks */,
+				OBJ_210 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD674A341DB7E83400E1FC24 /* Frameworks */ = {
+		OBJ_301 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				027E35C2200E8AEA00A863E6 /* Result.framework in Frameworks */,
-				0289007D200551B90024D80F /* SwiftyJSON.framework in Frameworks */,
-				0289007920054B870024D80F /* SwiftProtobuf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02618DD5200828F10074AD87 /* Supporting Files */ = {
+		OBJ_11 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				DD674A3B1DB7E83500E1FC24 /* ChromeCastCore.h */,
-				DD674A3C1DB7E83500E1FC24 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		02618E0720082F040074AD87 /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				0289007C200551B80024D80F /* SwiftyJSON.framework */,
-				0289007820054B870024D80F /* SwiftProtobuf.framework */,
-			);
-			name = Mac;
-			sourceTree = "<group>";
-		};
-		02618E0820082F0A0074AD87 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				02618DE720082A200074AD87 /* SwiftProtobuf.framework */,
-				02618DE620082A200074AD87 /* SwiftyJSON.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		02618E0920082F0E0074AD87 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				02618E0A20082F620074AD87 /* SwiftProtobuf.framework */,
-				02618E0B20082F620074AD87 /* SwiftyJSON.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
-		027E35C3200E8BB800A863E6 /* Channels */ = {
-			isa = PBXGroup;
-			children = (
-				027E35B6200E8A1400A863E6 /* CastChannel.swift */,
-				02F6F1ED2010062300CF01E1 /* Channelable.swift */,
-				02F6F1EB2010059200CF01E1 /* RequestSink.swift */,
-				027E35B7200E8A1400A863E6 /* HeartbeatChannel.swift */,
-				027E35B5200E8A1400A863E6 /* ReceiverControlChannel.swift */,
-				027E35CE200EAF0E00A863E6 /* DeviceSetupChannel.swift */,
-				0252C2B320113526002AE6A2 /* MultizoneControlChannel.swift */,
-				027E35D2200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift */,
-				027E35C8200EA7D800A863E6 /* MediaControlChannel.swift */,
-				020C21AC200EE20D006E53CA /* DeviceConnectionChannel.swift */,
-				020D54DF200EBA7A00CCA1B5 /* DeviceAuthChannel.swift */,
-			);
-			path = Channels;
-			sourceTree = "<group>";
-		};
-		DD1522621DBAD03D004B5762 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				024CB2EC2005A43D00FF73EE /* AppAvailability.swift */,
-				DD1522601DBAD02D004B5762 /* CastApp.swift */,
-				DD274EAF1DB7EF7F00428530 /* CastDevice.swift */,
-				DD1522671DBAD9B9004B5762 /* CastMedia.swift */,
-				DD1522651DBAD077004B5762 /* CastMediaStatus.swift */,
-				027E35C4200E933800A863E6 /* CastMessage.swift */,
-				0252C2B520113B84002AE6A2 /* CastMultizoneStatus.swift */,
-				0252C2B720113D7B002AE6A2 /* CastMultizoneDevice.swift */,
-				DD15225E1DBAD013004B5762 /* CastStatus.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		DD1522631DBAD041004B5762 /* Definitions */ = {
-			isa = PBXGroup;
-			children = (
-				DD15225C1DBACFE4004B5762 /* CASTV2Protocol.swift */,
-			);
-			path = Definitions;
-			sourceTree = "<group>";
-		};
-		DD1522641DBAD04F004B5762 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				DDC239471DB83E0200066B2F /* CastClient.swift */,
-				DD674A441DB7E89500E1FC24 /* CastDeviceScanner.swift */,
-				027E35C3200E8BB800A863E6 /* Channels */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		DD674A2E1DB7E83400E1FC24 = {
-			isa = PBXGroup;
-			children = (
-				DDC239581DB8F73A00066B2F /* Frameworks */,
-				DD674A391DB7E83500E1FC24 /* Products */,
-				DD674A431DB7E85B00E1FC24 /* Source */,
-				0289007620054A960024D80F /* Cartfile */,
-			);
-			sourceTree = "<group>";
-		};
-		DD674A391DB7E83500E1FC24 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DD674A381DB7E83500E1FC24 /* OpenCastSwift.framework */,
-				02618DCD2008289E0074AD87 /* OpenCastSwift.framework */,
-				02618DF220082EA90074AD87 /* OpenCastSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DD674A431DB7E85B00E1FC24 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				DD1522631DBAD041004B5762 /* Definitions */,
-				DDA6A4201DB9529E005DFD4E /* Helpers */,
-				DD1522621DBAD03D004B5762 /* Models */,
-				DD1522641DBAD04F004B5762 /* Networking */,
-				02618DD5200828F10074AD87 /* Supporting Files */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		DDA6A4201DB9529E005DFD4E /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				DDD1B81A1DB911EE002D3E6B /* Proto */,
-				028733A7200932B90015266E /* CastV2PlatformReader.swift */,
+				OBJ_12 /* CastV2PlatformReader.swift */,
+				OBJ_13 /* Proto */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		DDC239581DB8F73A00066B2F /* Frameworks */ = {
+		OBJ_13 /* Proto */ = {
 			isa = PBXGroup;
 			children = (
-				027E35C1200E8AEA00A863E6 /* Result.framework */,
-				02618E0920082F0E0074AD87 /* watchOS */,
-				02618E0820082F0A0074AD87 /* iOS */,
-				02618E0720082F040074AD87 /* Mac */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DDD1B81A1DB911EE002D3E6B /* Proto */ = {
-			isa = PBXGroup;
-			children = (
-				0298FB9B2009ACA600A0B016 /* cast_channel.proto */,
-				0289007A20054B970024D80F /* cast_channel.pb.swift */,
+				OBJ_14 /* cast_channel.pb.swift */,
 			);
 			path = Proto;
 			sourceTree = "<group>";
 		};
+		OBJ_130 /* SwiftProtobufPluginLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftProtobufPluginLibrary;
+			path = ".build/checkouts/swift-protobuf/Sources/SwiftProtobufPluginLibrary";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_131 /* protoc-gen-swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "protoc-gen-swift";
+			path = ".build/checkouts/swift-protobuf/Sources/protoc-gen-swift";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_133 /* SwiftyJSON 5.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_134 /* SwiftyJSON */,
+				OBJ_136 /* Package.swift */,
+			);
+			name = "SwiftyJSON 5.0.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_134 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_135 /* SwiftyJSON.swift */,
+			);
+			name = SwiftyJSON;
+			path = .build/checkouts/SwiftyJSON/Source/SwiftyJSON;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */,
+				"OpenCastSwift::OpenCastSwift::Product" /* OpenCastSwift.framework */,
+				"SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */,
+				"OpenCastSwift::OpenCastSwiftTests::Product" /* OpenCastSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* AppAvailability.swift */,
+				OBJ_17 /* CastApp.swift */,
+				OBJ_18 /* CastDevice.swift */,
+				OBJ_19 /* CastMedia.swift */,
+				OBJ_20 /* CastMediaStatus.swift */,
+				OBJ_21 /* CastMessage.swift */,
+				OBJ_22 /* CastMultizoneDevice.swift */,
+				OBJ_23 /* CastMultizoneStatus.swift */,
+				OBJ_24 /* CastStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_25 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* CastClient.swift */,
+				OBJ_27 /* CastDeviceScanner.swift */,
+				OBJ_28 /* Channels */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		OBJ_28 /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* CastChannel.swift */,
+				OBJ_30 /* Channelable.swift */,
+				OBJ_31 /* DeviceAuthChannel.swift */,
+				OBJ_32 /* DeviceConnectionChannel.swift */,
+				OBJ_33 /* DeviceDiscoveryChannel.swift */,
+				OBJ_34 /* DeviceSetupChannel.swift */,
+				OBJ_35 /* HeartbeatChannel.swift */,
+				OBJ_36 /* MediaControlChannel.swift */,
+				OBJ_37 /* MultizoneControlChannel.swift */,
+				OBJ_38 /* ReceiverControlChannel.swift */,
+				OBJ_39 /* RequestSink.swift */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		OBJ_40 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_41 /* OpenCastSwiftTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_41 /* OpenCastSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_42 /* OpenCastSwiftTests.swift */,
+				OBJ_43 /* XCTestManifests.swift */,
+			);
+			name = OpenCastSwiftTests;
+			path = Tests/OpenCastSwiftTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_44 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_45 /* SwiftProtobuf 1.12.0 */,
+				OBJ_133 /* SwiftyJSON 5.0.0 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_45 /* SwiftProtobuf 1.12.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_46 /* SwiftProtobuf */,
+				OBJ_130 /* SwiftProtobufPluginLibrary */,
+				OBJ_131 /* protoc-gen-swift */,
+				OBJ_132 /* Package.swift */,
+			);
+			name = "SwiftProtobuf 1.12.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_46 /* SwiftProtobuf */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_47 /* AnyMessageStorage.swift */,
+				OBJ_48 /* AnyUnpackError.swift */,
+				OBJ_49 /* BinaryDecoder.swift */,
+				OBJ_50 /* BinaryDecodingError.swift */,
+				OBJ_51 /* BinaryDecodingOptions.swift */,
+				OBJ_52 /* BinaryDelimited.swift */,
+				OBJ_53 /* BinaryEncoder.swift */,
+				OBJ_54 /* BinaryEncodingError.swift */,
+				OBJ_55 /* BinaryEncodingSizeVisitor.swift */,
+				OBJ_56 /* BinaryEncodingVisitor.swift */,
+				OBJ_57 /* CustomJSONCodable.swift */,
+				OBJ_58 /* Data+Extensions.swift */,
+				OBJ_59 /* Decoder.swift */,
+				OBJ_60 /* DoubleParser.swift */,
+				OBJ_61 /* Enum.swift */,
+				OBJ_62 /* ExtensibleMessage.swift */,
+				OBJ_63 /* ExtensionFieldValueSet.swift */,
+				OBJ_64 /* ExtensionFields.swift */,
+				OBJ_65 /* ExtensionMap.swift */,
+				OBJ_66 /* FieldTag.swift */,
+				OBJ_67 /* FieldTypes.swift */,
+				OBJ_68 /* Google_Protobuf_Any+Extensions.swift */,
+				OBJ_69 /* Google_Protobuf_Any+Registry.swift */,
+				OBJ_70 /* Google_Protobuf_Duration+Extensions.swift */,
+				OBJ_71 /* Google_Protobuf_FieldMask+Extensions.swift */,
+				OBJ_72 /* Google_Protobuf_ListValue+Extensions.swift */,
+				OBJ_73 /* Google_Protobuf_NullValue+Extensions.swift */,
+				OBJ_74 /* Google_Protobuf_Struct+Extensions.swift */,
+				OBJ_75 /* Google_Protobuf_Timestamp+Extensions.swift */,
+				OBJ_76 /* Google_Protobuf_Value+Extensions.swift */,
+				OBJ_77 /* Google_Protobuf_Wrappers+Extensions.swift */,
+				OBJ_78 /* HashVisitor.swift */,
+				OBJ_79 /* Internal.swift */,
+				OBJ_80 /* JSONDecoder.swift */,
+				OBJ_81 /* JSONDecodingError.swift */,
+				OBJ_82 /* JSONDecodingOptions.swift */,
+				OBJ_83 /* JSONEncoder.swift */,
+				OBJ_84 /* JSONEncodingError.swift */,
+				OBJ_85 /* JSONEncodingOptions.swift */,
+				OBJ_86 /* JSONEncodingVisitor.swift */,
+				OBJ_87 /* JSONMapEncodingVisitor.swift */,
+				OBJ_88 /* JSONScanner.swift */,
+				OBJ_89 /* MathUtils.swift */,
+				OBJ_90 /* Message+AnyAdditions.swift */,
+				OBJ_91 /* Message+BinaryAdditions.swift */,
+				OBJ_92 /* Message+JSONAdditions.swift */,
+				OBJ_93 /* Message+JSONArrayAdditions.swift */,
+				OBJ_94 /* Message+TextFormatAdditions.swift */,
+				OBJ_95 /* Message.swift */,
+				OBJ_96 /* MessageExtension.swift */,
+				OBJ_97 /* NameMap.swift */,
+				OBJ_98 /* ProtoNameProviding.swift */,
+				OBJ_99 /* ProtobufAPIVersionCheck.swift */,
+				OBJ_100 /* ProtobufMap.swift */,
+				OBJ_101 /* SelectiveVisitor.swift */,
+				OBJ_102 /* SimpleExtensionMap.swift */,
+				OBJ_103 /* StringUtils.swift */,
+				OBJ_104 /* TextFormatDecoder.swift */,
+				OBJ_105 /* TextFormatDecodingError.swift */,
+				OBJ_106 /* TextFormatEncoder.swift */,
+				OBJ_107 /* TextFormatEncodingOptions.swift */,
+				OBJ_108 /* TextFormatEncodingVisitor.swift */,
+				OBJ_109 /* TextFormatScanner.swift */,
+				OBJ_110 /* TimeUtils.swift */,
+				OBJ_111 /* UnknownStorage.swift */,
+				OBJ_112 /* UnsafeBufferPointer+Shims.swift */,
+				OBJ_113 /* UnsafeRawPointer+Shims.swift */,
+				OBJ_114 /* Varint.swift */,
+				OBJ_115 /* Version.swift */,
+				OBJ_116 /* Visitor.swift */,
+				OBJ_117 /* WireFormat.swift */,
+				OBJ_118 /* ZigZag.swift */,
+				OBJ_119 /* any.pb.swift */,
+				OBJ_120 /* api.pb.swift */,
+				OBJ_121 /* descriptor.pb.swift */,
+				OBJ_122 /* duration.pb.swift */,
+				OBJ_123 /* empty.pb.swift */,
+				OBJ_124 /* field_mask.pb.swift */,
+				OBJ_125 /* source_context.pb.swift */,
+				OBJ_126 /* struct.pb.swift */,
+				OBJ_127 /* timestamp.pb.swift */,
+				OBJ_128 /* type.pb.swift */,
+				OBJ_129 /* wrappers.pb.swift */,
+			);
+			name = SwiftProtobuf;
+			path = ".build/checkouts/swift-protobuf/Sources/SwiftProtobuf";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_40 /* Tests */,
+				OBJ_44 /* Dependencies */,
+				OBJ_137 /* Products */,
+				OBJ_147 /* LICENSE */,
+				OBJ_149 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* OpenCastSwift */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* OpenCastSwift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Definitions */,
+				OBJ_11 /* Helpers */,
+				OBJ_15 /* Models */,
+				OBJ_25 /* Networking */,
+			);
+			name = OpenCastSwift;
+			path = Sources/OpenCastSwift;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* CASTV2Protocol.swift */,
+			);
+			path = Definitions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		02618DCA2008289E0074AD87 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02618DEC20082A940074AD87 /* ChromeCastCore.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02618DEF20082EA90074AD87 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02618DFA20082EB80074AD87 /* ChromeCastCore.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD674A351DB7E83400E1FC24 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02618DEB20082A940074AD87 /* ChromeCastCore.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		02618DCC2008289E0074AD87 /* OpenCastSwift iOS */ = {
+		"OpenCastSwift::OpenCastSwift" /* OpenCastSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02618DD22008289E0074AD87 /* Build configuration list for PBXNativeTarget "OpenCastSwift iOS" */;
+			buildConfigurationList = OBJ_153 /* Build configuration list for PBXNativeTarget "OpenCastSwift" */;
 			buildPhases = (
-				02618DC82008289E0074AD87 /* Sources */,
-				02618DC92008289E0074AD87 /* Frameworks */,
-				02618DCA2008289E0074AD87 /* Headers */,
-				02618DCB2008289E0074AD87 /* Resources */,
+				OBJ_156 /* Sources */,
+				OBJ_182 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_185 /* PBXTargetDependency */,
+				OBJ_187 /* PBXTargetDependency */,
 			);
-			name = "OpenCastSwift iOS";
-			productName = "ChromeCastCore-iOS";
-			productReference = 02618DCD2008289E0074AD87 /* OpenCastSwift.framework */;
+			name = OpenCastSwift;
+			productName = OpenCastSwift;
+			productReference = "OpenCastSwift::OpenCastSwift::Product" /* OpenCastSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		02618DF120082EA90074AD87 /* OpenCastSwift watchOS */ = {
+		"OpenCastSwift::OpenCastSwiftTests" /* OpenCastSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02618DF720082EA90074AD87 /* Build configuration list for PBXNativeTarget "OpenCastSwift watchOS" */;
+			buildConfigurationList = OBJ_201 /* Build configuration list for PBXNativeTarget "OpenCastSwiftTests" */;
 			buildPhases = (
-				02618DED20082EA90074AD87 /* Sources */,
-				02618DEE20082EA90074AD87 /* Frameworks */,
-				02618DEF20082EA90074AD87 /* Headers */,
-				02618DF020082EA90074AD87 /* Resources */,
+				OBJ_204 /* Sources */,
+				OBJ_207 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_211 /* PBXTargetDependency */,
+				OBJ_212 /* PBXTargetDependency */,
+				OBJ_213 /* PBXTargetDependency */,
+			);
+			name = OpenCastSwiftTests;
+			productName = OpenCastSwiftTests;
+			productReference = "OpenCastSwift::OpenCastSwiftTests::Product" /* OpenCastSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"OpenCastSwift::SwiftPMPackageDescription" /* OpenCastSwiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_190 /* Build configuration list for PBXNativeTarget "OpenCastSwiftPackageDescription" */;
+			buildPhases = (
+				OBJ_193 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "OpenCastSwift watchOS";
-			productName = "ChromeCastCore watchOS";
-			productReference = 02618DF220082EA90074AD87 /* OpenCastSwift.framework */;
+			name = OpenCastSwiftPackageDescription;
+			productName = OpenCastSwiftPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		DD674A371DB7E83400E1FC24 /* OpenCastSwift Mac */ = {
+		"SwiftProtobuf::SwiftPMPackageDescription" /* SwiftProtobufPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD674A401DB7E83500E1FC24 /* Build configuration list for PBXNativeTarget "OpenCastSwift Mac" */;
+			buildConfigurationList = OBJ_303 /* Build configuration list for PBXNativeTarget "SwiftProtobufPackageDescription" */;
 			buildPhases = (
-				DD674A331DB7E83400E1FC24 /* Sources */,
-				DD674A341DB7E83400E1FC24 /* Frameworks */,
-				DD674A351DB7E83400E1FC24 /* Headers */,
-				DD674A361DB7E83400E1FC24 /* Resources */,
+				OBJ_306 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "OpenCastSwift Mac";
-			productName = ChromeCastCore;
-			productReference = DD674A381DB7E83500E1FC24 /* OpenCastSwift.framework */;
+			name = SwiftProtobufPackageDescription;
+			productName = SwiftProtobufPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_214 /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */;
+			buildPhases = (
+				OBJ_217 /* Sources */,
+				OBJ_301 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftProtobuf;
+			productName = SwiftProtobuf;
+			productReference = "SwiftProtobuf::SwiftProtobuf::Product" /* SwiftProtobuf.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftyJSON::SwiftPMPackageDescription" /* SwiftyJSONPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_315 /* Build configuration list for PBXNativeTarget "SwiftyJSONPackageDescription" */;
+			buildPhases = (
+				OBJ_318 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSONPackageDescription;
+			productName = SwiftyJSONPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftyJSON::SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_308 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				OBJ_311 /* Sources */,
+				OBJ_313 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DD674A2F1DB7E83400E1FC24 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "Guilherme Rambo";
-				TargetAttributes = {
-					02618DCC2008289E0074AD87 = {
-						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 7XLNECBC46;
-						ProvisioningStyle = Automatic;
-					};
-					02618DF120082EA90074AD87 = {
-						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 7XLNECBC46;
-						ProvisioningStyle = Automatic;
-					};
-					DD674A371DB7E83400E1FC24 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 7XLNECBC46;
-						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
-					};
-				};
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = DD674A321DB7E83400E1FC24 /* Build configuration list for PBXProject "OpenCastSwift" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "OpenCastSwift" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = DD674A2E1DB7E83400E1FC24;
-			productRefGroup = DD674A391DB7E83500E1FC24 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_137 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD674A371DB7E83400E1FC24 /* OpenCastSwift Mac */,
-				02618DCC2008289E0074AD87 /* OpenCastSwift iOS */,
-				02618DF120082EA90074AD87 /* OpenCastSwift watchOS */,
+				"OpenCastSwift::OpenCastSwift" /* OpenCastSwift */,
+				"OpenCastSwift::SwiftPMPackageDescription" /* OpenCastSwiftPackageDescription */,
+				"OpenCastSwift::OpenCastSwiftPackageTests::ProductTarget" /* OpenCastSwiftPackageTests */,
+				"OpenCastSwift::OpenCastSwiftTests" /* OpenCastSwiftTests */,
+				"SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */,
+				"SwiftProtobuf::SwiftPMPackageDescription" /* SwiftProtobufPackageDescription */,
+				"SwiftyJSON::SwiftyJSON" /* SwiftyJSON */,
+				"SwiftyJSON::SwiftPMPackageDescription" /* SwiftyJSONPackageDescription */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		02618DCB2008289E0074AD87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02618DF020082EA90074AD87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD674A361DB7E83400E1FC24 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0289007720054A960024D80F /* Cartfile in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		02618DC82008289E0074AD87 /* Sources */ = {
+		OBJ_156 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				02618DDB2008293B0074AD87 /* CastApp.swift in Sources */,
-				0252C2BB20113FF4002AE6A2 /* MultizoneControlChannel.swift in Sources */,
-				027E35C6200E933800A863E6 /* CastMessage.swift in Sources */,
-				027E35D4200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */,
-				02618DE3200829470074AD87 /* CastClient.swift in Sources */,
-				027E35B9200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */,
-				0252C2BA20113FF4002AE6A2 /* CastMultizoneDevice.swift in Sources */,
-				02618DDA2008293B0074AD87 /* CastStatus.swift in Sources */,
-				027E35BC200E8A1400A863E6 /* CastChannel.swift in Sources */,
-				0252C2B120113404002AE6A2 /* RequestSink.swift in Sources */,
-				02618DD92008293B0074AD87 /* CastDevice.swift in Sources */,
-				02618DDF200829440074AD87 /* cast_channel.pb.swift in Sources */,
-				02618DDC2008293B0074AD87 /* AppAvailability.swift in Sources */,
-				027E35BF200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */,
-				0252C2B920113FF4002AE6A2 /* CastMultizoneStatus.swift in Sources */,
-				020C21AE200EE3A6006E53CA /* DeviceConnectionChannel.swift in Sources */,
-				02618DD8200829360074AD87 /* CASTV2Protocol.swift in Sources */,
-				02F6F1EF2010066F00CF01E1 /* Channelable.swift in Sources */,
-				0298FB952009955600A0B016 /* CastV2PlatformReader.swift in Sources */,
-				02618DE2200829470074AD87 /* CastDeviceScanner.swift in Sources */,
-				027E35D0200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */,
-				02618DDD2008293B0074AD87 /* CastMediaStatus.swift in Sources */,
-				027E35CA200EA7D800A863E6 /* MediaControlChannel.swift in Sources */,
-				02618DDE2008293B0074AD87 /* CastMedia.swift in Sources */,
+				OBJ_157 /* CASTV2Protocol.swift in Sources */,
+				OBJ_158 /* CastV2PlatformReader.swift in Sources */,
+				OBJ_159 /* cast_channel.pb.swift in Sources */,
+				OBJ_160 /* AppAvailability.swift in Sources */,
+				OBJ_161 /* CastApp.swift in Sources */,
+				OBJ_162 /* CastDevice.swift in Sources */,
+				OBJ_163 /* CastMedia.swift in Sources */,
+				OBJ_164 /* CastMediaStatus.swift in Sources */,
+				OBJ_165 /* CastMessage.swift in Sources */,
+				OBJ_166 /* CastMultizoneDevice.swift in Sources */,
+				OBJ_167 /* CastMultizoneStatus.swift in Sources */,
+				OBJ_168 /* CastStatus.swift in Sources */,
+				OBJ_169 /* CastClient.swift in Sources */,
+				OBJ_170 /* CastDeviceScanner.swift in Sources */,
+				OBJ_171 /* CastChannel.swift in Sources */,
+				OBJ_172 /* Channelable.swift in Sources */,
+				OBJ_173 /* DeviceAuthChannel.swift in Sources */,
+				OBJ_174 /* DeviceConnectionChannel.swift in Sources */,
+				OBJ_175 /* DeviceDiscoveryChannel.swift in Sources */,
+				OBJ_176 /* DeviceSetupChannel.swift in Sources */,
+				OBJ_177 /* HeartbeatChannel.swift in Sources */,
+				OBJ_178 /* MediaControlChannel.swift in Sources */,
+				OBJ_179 /* MultizoneControlChannel.swift in Sources */,
+				OBJ_180 /* ReceiverControlChannel.swift in Sources */,
+				OBJ_181 /* RequestSink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02618DED20082EA90074AD87 /* Sources */ = {
+		OBJ_193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				0252C2BD20113FF5002AE6A2 /* CastMultizoneDevice.swift in Sources */,
-				027E35CB200EA7D800A863E6 /* MediaControlChannel.swift in Sources */,
-				027E35BA200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */,
-				02618DFE20082EBD0074AD87 /* AppAvailability.swift in Sources */,
-				027E35C0200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */,
-				02618E0620082EDE0074AD87 /* CastClient.swift in Sources */,
-				02618DFC20082EBD0074AD87 /* CastStatus.swift in Sources */,
-				027E35D5200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */,
-				02618DFF20082EBD0074AD87 /* CastMediaStatus.swift in Sources */,
-				02F6F1F02010066F00CF01E1 /* Channelable.swift in Sources */,
-				0298FB962009955600A0B016 /* CastV2PlatformReader.swift in Sources */,
-				0252C2BE20113FF5002AE6A2 /* MultizoneControlChannel.swift in Sources */,
-				0252C2B220113404002AE6A2 /* RequestSink.swift in Sources */,
-				02618E0220082EC30074AD87 /* cast_channel.pb.swift in Sources */,
-				02618DFD20082EBD0074AD87 /* CastApp.swift in Sources */,
-				027E35BD200E8A1400A863E6 /* CastChannel.swift in Sources */,
-				027E35C7200E933800A863E6 /* CastMessage.swift in Sources */,
-				0252C2BC20113FF5002AE6A2 /* CastMultizoneStatus.swift in Sources */,
-				02618E0120082EC00074AD87 /* CASTV2Protocol.swift in Sources */,
-				027E35D1200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */,
-				020C21AF200EE3A6006E53CA /* DeviceConnectionChannel.swift in Sources */,
-				02618DFB20082EBD0074AD87 /* CastDevice.swift in Sources */,
-				02618E0020082EBD0074AD87 /* CastMedia.swift in Sources */,
+				OBJ_194 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD674A331DB7E83400E1FC24 /* Sources */ = {
+		OBJ_204 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				DD274EB01DB7EF7F00428530 /* CastDevice.swift in Sources */,
-				027E35C5200E933800A863E6 /* CastMessage.swift in Sources */,
-				027E35D3200EAF8D00A863E6 /* DeviceDiscoveryChannel.swift in Sources */,
-				DD674A451DB7E89500E1FC24 /* CastDeviceScanner.swift in Sources */,
-				027E35B8200E8A1400A863E6 /* ReceiverControlChannel.swift in Sources */,
-				02F6F1EE2010062300CF01E1 /* Channelable.swift in Sources */,
-				DD15225F1DBAD013004B5762 /* CastStatus.swift in Sources */,
-				027E35BB200E8A1400A863E6 /* CastChannel.swift in Sources */,
-				02F6F1EC2010059200CF01E1 /* RequestSink.swift in Sources */,
-				DDC239481DB83E0200066B2F /* CastClient.swift in Sources */,
-				DD15225D1DBACFE4004B5762 /* CASTV2Protocol.swift in Sources */,
-				0252C2B420113526002AE6A2 /* MultizoneControlChannel.swift in Sources */,
-				024CB2ED2005A43D00FF73EE /* AppAvailability.swift in Sources */,
-				027E35BE200E8A1400A863E6 /* HeartbeatChannel.swift in Sources */,
-				DD1522681DBAD9B9004B5762 /* CastMedia.swift in Sources */,
-				020D54E0200EBA7A00CCA1B5 /* DeviceAuthChannel.swift in Sources */,
-				028733AD200949E00015266E /* CastV2PlatformReader.swift in Sources */,
-				0252C2B820113D7B002AE6A2 /* CastMultizoneDevice.swift in Sources */,
-				0289007B20054B970024D80F /* cast_channel.pb.swift in Sources */,
-				0252C2B620113B84002AE6A2 /* CastMultizoneStatus.swift in Sources */,
-				027E35CF200EAF0E00A863E6 /* DeviceSetupChannel.swift in Sources */,
-				DD1522611DBAD02D004B5762 /* CastApp.swift in Sources */,
-				020C21AD200EE20D006E53CA /* DeviceConnectionChannel.swift in Sources */,
-				027E35C9200EA7D800A863E6 /* MediaControlChannel.swift in Sources */,
-				DD1522661DBAD077004B5762 /* CastMediaStatus.swift in Sources */,
+				OBJ_205 /* OpenCastSwiftTests.swift in Sources */,
+				OBJ_206 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_218 /* AnyMessageStorage.swift in Sources */,
+				OBJ_219 /* AnyUnpackError.swift in Sources */,
+				OBJ_220 /* BinaryDecoder.swift in Sources */,
+				OBJ_221 /* BinaryDecodingError.swift in Sources */,
+				OBJ_222 /* BinaryDecodingOptions.swift in Sources */,
+				OBJ_223 /* BinaryDelimited.swift in Sources */,
+				OBJ_224 /* BinaryEncoder.swift in Sources */,
+				OBJ_225 /* BinaryEncodingError.swift in Sources */,
+				OBJ_226 /* BinaryEncodingSizeVisitor.swift in Sources */,
+				OBJ_227 /* BinaryEncodingVisitor.swift in Sources */,
+				OBJ_228 /* CustomJSONCodable.swift in Sources */,
+				OBJ_229 /* Data+Extensions.swift in Sources */,
+				OBJ_230 /* Decoder.swift in Sources */,
+				OBJ_231 /* DoubleParser.swift in Sources */,
+				OBJ_232 /* Enum.swift in Sources */,
+				OBJ_233 /* ExtensibleMessage.swift in Sources */,
+				OBJ_234 /* ExtensionFieldValueSet.swift in Sources */,
+				OBJ_235 /* ExtensionFields.swift in Sources */,
+				OBJ_236 /* ExtensionMap.swift in Sources */,
+				OBJ_237 /* FieldTag.swift in Sources */,
+				OBJ_238 /* FieldTypes.swift in Sources */,
+				OBJ_239 /* Google_Protobuf_Any+Extensions.swift in Sources */,
+				OBJ_240 /* Google_Protobuf_Any+Registry.swift in Sources */,
+				OBJ_241 /* Google_Protobuf_Duration+Extensions.swift in Sources */,
+				OBJ_242 /* Google_Protobuf_FieldMask+Extensions.swift in Sources */,
+				OBJ_243 /* Google_Protobuf_ListValue+Extensions.swift in Sources */,
+				OBJ_244 /* Google_Protobuf_NullValue+Extensions.swift in Sources */,
+				OBJ_245 /* Google_Protobuf_Struct+Extensions.swift in Sources */,
+				OBJ_246 /* Google_Protobuf_Timestamp+Extensions.swift in Sources */,
+				OBJ_247 /* Google_Protobuf_Value+Extensions.swift in Sources */,
+				OBJ_248 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */,
+				OBJ_249 /* HashVisitor.swift in Sources */,
+				OBJ_250 /* Internal.swift in Sources */,
+				OBJ_251 /* JSONDecoder.swift in Sources */,
+				OBJ_252 /* JSONDecodingError.swift in Sources */,
+				OBJ_253 /* JSONDecodingOptions.swift in Sources */,
+				OBJ_254 /* JSONEncoder.swift in Sources */,
+				OBJ_255 /* JSONEncodingError.swift in Sources */,
+				OBJ_256 /* JSONEncodingOptions.swift in Sources */,
+				OBJ_257 /* JSONEncodingVisitor.swift in Sources */,
+				OBJ_258 /* JSONMapEncodingVisitor.swift in Sources */,
+				OBJ_259 /* JSONScanner.swift in Sources */,
+				OBJ_260 /* MathUtils.swift in Sources */,
+				OBJ_261 /* Message+AnyAdditions.swift in Sources */,
+				OBJ_262 /* Message+BinaryAdditions.swift in Sources */,
+				OBJ_263 /* Message+JSONAdditions.swift in Sources */,
+				OBJ_264 /* Message+JSONArrayAdditions.swift in Sources */,
+				OBJ_265 /* Message+TextFormatAdditions.swift in Sources */,
+				OBJ_266 /* Message.swift in Sources */,
+				OBJ_267 /* MessageExtension.swift in Sources */,
+				OBJ_268 /* NameMap.swift in Sources */,
+				OBJ_269 /* ProtoNameProviding.swift in Sources */,
+				OBJ_270 /* ProtobufAPIVersionCheck.swift in Sources */,
+				OBJ_271 /* ProtobufMap.swift in Sources */,
+				OBJ_272 /* SelectiveVisitor.swift in Sources */,
+				OBJ_273 /* SimpleExtensionMap.swift in Sources */,
+				OBJ_274 /* StringUtils.swift in Sources */,
+				OBJ_275 /* TextFormatDecoder.swift in Sources */,
+				OBJ_276 /* TextFormatDecodingError.swift in Sources */,
+				OBJ_277 /* TextFormatEncoder.swift in Sources */,
+				OBJ_278 /* TextFormatEncodingOptions.swift in Sources */,
+				OBJ_279 /* TextFormatEncodingVisitor.swift in Sources */,
+				OBJ_280 /* TextFormatScanner.swift in Sources */,
+				OBJ_281 /* TimeUtils.swift in Sources */,
+				OBJ_282 /* UnknownStorage.swift in Sources */,
+				OBJ_283 /* UnsafeBufferPointer+Shims.swift in Sources */,
+				OBJ_284 /* UnsafeRawPointer+Shims.swift in Sources */,
+				OBJ_285 /* Varint.swift in Sources */,
+				OBJ_286 /* Version.swift in Sources */,
+				OBJ_287 /* Visitor.swift in Sources */,
+				OBJ_288 /* WireFormat.swift in Sources */,
+				OBJ_289 /* ZigZag.swift in Sources */,
+				OBJ_290 /* any.pb.swift in Sources */,
+				OBJ_291 /* api.pb.swift in Sources */,
+				OBJ_292 /* descriptor.pb.swift in Sources */,
+				OBJ_293 /* duration.pb.swift in Sources */,
+				OBJ_294 /* empty.pb.swift in Sources */,
+				OBJ_295 /* field_mask.pb.swift in Sources */,
+				OBJ_296 /* source_context.pb.swift in Sources */,
+				OBJ_297 /* struct.pb.swift in Sources */,
+				OBJ_298 /* timestamp.pb.swift in Sources */,
+				OBJ_299 /* type.pb.swift in Sources */,
+				OBJ_300 /* wrappers.pb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_307 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_312 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_319 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		OBJ_185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */;
+			targetProxy = 48AE06D324FE674F00102AC3 /* PBXContainerItemProxy */;
+		};
+		OBJ_187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftyJSON::SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = 48AE06D424FE674F00102AC3 /* PBXContainerItemProxy */;
+		};
+		OBJ_199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "OpenCastSwift::OpenCastSwiftTests" /* OpenCastSwiftTests */;
+			targetProxy = 48AE06D824FE675A00102AC3 /* PBXContainerItemProxy */;
+		};
+		OBJ_211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "OpenCastSwift::OpenCastSwift" /* OpenCastSwift */;
+			targetProxy = 48AE06D524FE675500102AC3 /* PBXContainerItemProxy */;
+		};
+		OBJ_212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftProtobuf::SwiftProtobuf" /* SwiftProtobuf */;
+			targetProxy = 48AE06D624FE675500102AC3 /* PBXContainerItemProxy */;
+		};
+		OBJ_213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftyJSON::SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = 48AE06D724FE675500102AC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		02618DD32008289E0074AD87 /* Debug */ = {
+		OBJ_154 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7XLNECBC46;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-iOS";
-				PRODUCT_NAME = OpenCastSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		02618DD42008289E0074AD87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7XLNECBC46;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-iOS";
-				PRODUCT_NAME = OpenCastSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		02618DF820082EA90074AD87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7XLNECBC46;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-watchOS";
-				PRODUCT_NAME = OpenCastSwift;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Debug;
-		};
-		02618DF920082EA90074AD87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7XLNECBC46;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.ChromeCastCore-watchOS";
-				PRODUCT_NAME = OpenCastSwift;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Release;
-		};
-		DD674A3E1DB7E83500E1FC24 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenCastSwift.xcodeproj/OpenCastSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = OpenCastSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = OpenCastSwift;
+			};
+			name = Debug;
+		};
+		OBJ_155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenCastSwift.xcodeproj/OpenCastSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = OpenCastSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = OpenCastSwift;
+			};
+			name = Release;
+		};
+		OBJ_191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenCastSwift.xcodeproj/OpenCastSwiftTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = OpenCastSwiftTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenCastSwift.xcodeproj/OpenCastSwiftTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = OpenCastSwiftTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenCastSwift.xcodeproj/SwiftProtobuf_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftProtobuf;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftProtobuf;
+			};
+			name = Debug;
+		};
+		OBJ_216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenCastSwift.xcodeproj/SwiftProtobuf_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftProtobuf;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftProtobuf;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		DD674A3F1DB7E83500E1FC24 /* Release */ = {
+		OBJ_304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.2.0";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 4.2.0";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
-		DD674A411DB7E83500E1FC24 /* Debug */ = {
+		OBJ_309 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.ChromeCastCore;
-				PRODUCT_NAME = OpenCastSwift;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenCastSwift.xcodeproj/SwiftyJSON_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyJSON;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftyJSON;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
-		DD674A421DB7E83500E1FC24 /* Release */ = {
+		OBJ_310 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.ChromeCastCore;
-				PRODUCT_NAME = OpenCastSwift;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = OpenCastSwift.xcodeproj/SwiftyJSON_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyJSON;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftyJSON;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02618DD22008289E0074AD87 /* Build configuration list for PBXNativeTarget "OpenCastSwift iOS" */ = {
+		OBJ_153 /* Build configuration list for PBXNativeTarget "OpenCastSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02618DD32008289E0074AD87 /* Debug */,
-				02618DD42008289E0074AD87 /* Release */,
+				OBJ_154 /* Debug */,
+				OBJ_155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02618DF720082EA90074AD87 /* Build configuration list for PBXNativeTarget "OpenCastSwift watchOS" */ = {
+		OBJ_190 /* Build configuration list for PBXNativeTarget "OpenCastSwiftPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02618DF820082EA90074AD87 /* Debug */,
-				02618DF920082EA90074AD87 /* Release */,
+				OBJ_191 /* Debug */,
+				OBJ_192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD674A321DB7E83400E1FC24 /* Build configuration list for PBXProject "OpenCastSwift" */ = {
+		OBJ_196 /* Build configuration list for PBXAggregateTarget "OpenCastSwiftPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD674A3E1DB7E83500E1FC24 /* Debug */,
-				DD674A3F1DB7E83500E1FC24 /* Release */,
+				OBJ_197 /* Debug */,
+				OBJ_198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD674A401DB7E83500E1FC24 /* Build configuration list for PBXNativeTarget "OpenCastSwift Mac" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "OpenCastSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD674A411DB7E83500E1FC24 /* Debug */,
-				DD674A421DB7E83500E1FC24 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_201 /* Build configuration list for PBXNativeTarget "OpenCastSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_202 /* Debug */,
+				OBJ_203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_214 /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_215 /* Debug */,
+				OBJ_216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_303 /* Build configuration list for PBXNativeTarget "SwiftProtobufPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_304 /* Debug */,
+				OBJ_305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_308 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_309 /* Debug */,
+				OBJ_310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_315 /* Build configuration list for PBXNativeTarget "SwiftyJSONPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_316 /* Debug */,
+				OBJ_317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DD674A2F1DB7E83400E1FC24 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }
