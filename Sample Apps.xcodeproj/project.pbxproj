@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		027E35CD200EAD5300A863E6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027E35CC200EAD5300A863E6 /* SwiftyJSON.framework */; };
 		028733BB200992DC0015266E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733BA200992DC0015266E /* AppDelegate.swift */; };
 		028733BD200992DC0015266E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028733BC200992DC0015266E /* ViewController.swift */; };
 		028733C0200992DC0015266E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028733BE200992DC0015266E /* Main.storyboard */; };
@@ -17,10 +16,10 @@
 		0298FB88200993F200A0B016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0298FB84200993F200A0B016 /* Assets.xcassets */; };
 		0298FB89200993F200A0B016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0298FB85200993F200A0B016 /* AppDelegate.swift */; };
 		0298FB8D200993F800A0B016 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0298FB8C200993F800A0B016 /* StatusItemController.swift */; };
-		0298FB932009952000A0B016 /* ChromeCastCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0298FB942009952000A0B016 /* ChromeCastCore.framework */; };
 		0298FB98200999E300A0B016 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0298FB97200999E300A0B016 /* DeviceCell.swift */; };
 		0298FB9A20099A8900A0B016 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0298FB9920099A8900A0B016 /* DetailsViewController.swift */; };
-		02A4020B208D2BBE000FA7D0 /* OpenCastSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A4020A208D2BBE000FA7D0 /* OpenCastSwift.framework */; };
+		48BA96E62502668300D796E1 /* OpenCastSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 48BA96E52502668300D796E1 /* OpenCastSwift */; };
+		48BA96E82502668A00D796E1 /* OpenCastSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 48BA96E72502668A00D796E1 /* OpenCastSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +43,7 @@
 		0298FB97200999E300A0B016 /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
 		0298FB9920099A8900A0B016 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		02A4020A208D2BBE000FA7D0 /* OpenCastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenCastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BA96E42502665900D796E1 /* OpenCastSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = OpenCastSwift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02A4020B208D2BBE000FA7D0 /* OpenCastSwift.framework in Frameworks */,
+				48BA96E62502668300D796E1 /* OpenCastSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				027E35CD200EAD5300A863E6 /* SwiftyJSON.framework in Frameworks */,
-				0298FB932009952000A0B016 /* ChromeCastCore.framework in Frameworks */,
+				48BA96E82502668A00D796E1 /* OpenCastSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +69,7 @@
 		028733AE200992DC0015266E = {
 			isa = PBXGroup;
 			children = (
+				48BA96E42502665900D796E1 /* OpenCastSwift */,
 				0298FB902009951A00A0B016 /* Frameworks */,
 				028733B8200992DC0015266E /* Products */,
 				028733D1200993090015266E /* Sample Mac App */,
@@ -143,13 +143,15 @@
 				028733B3200992DC0015266E /* Sources */,
 				028733B4200992DC0015266E /* Frameworks */,
 				028733B5200992DC0015266E /* Resources */,
-				0298FB8E200994A100A0B016 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Sample iOS App";
+			packageProductDependencies = (
+				48BA96E52502668300D796E1 /* OpenCastSwift */,
+			);
 			productName = "Sample iOS App";
 			productReference = 028733B7200992DC0015266E /* Sample iOS App.app */;
 			productType = "com.apple.product-type.application";
@@ -161,13 +163,15 @@
 				028733CC200993090015266E /* Sources */,
 				028733CD200993090015266E /* Frameworks */,
 				028733CE200993090015266E /* Resources */,
-				0298FB8F200994A400A0B016 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Sample Mac App";
+			packageProductDependencies = (
+				48BA96E72502668A00D796E1 /* OpenCastSwift */,
+			);
 			productName = "Sample Mac App";
 			productReference = 028733D0200993090015266E /* Sample Mac App.app */;
 			productType = "com.apple.product-type.application";
@@ -233,41 +237,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0298FB8E200994A100A0B016 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftProtobuf.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		0298FB8F200994A400A0B016 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/SwiftyJSON.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/SwiftProtobuf.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/Result.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		028733B3200992DC0015266E /* Sources */ = {
@@ -429,7 +398,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -441,7 +411,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XLNECBC46;
 				INFOPLIST_FILE = "Sample iOS App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.Sample-iOS-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -456,7 +429,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XLNECBC46;
 				INFOPLIST_FILE = "Sample iOS App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.Sample-iOS-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -479,7 +455,10 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Sample Mac App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.Sample-Mac-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,13 +477,16 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7XLNECBC46;
+				DEVELOPMENT_TEAM = 33E63Z3P7B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Sample Mac App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hollingsware.Sample-Mac-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,6 +526,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48BA96E52502668300D796E1 /* OpenCastSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenCastSwift;
+		};
+		48BA96E72502668A00D796E1 /* OpenCastSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenCastSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 028733AF200992DC0015266E /* Project object */;
 }
